@@ -1,2 +1,6 @@
+#!/bin/bash
+
+hostnamectl set-hostname hq-cli-ks54.net
+
 mkdir -p /etc/net/ifaces/ens18
 echo "172.16.4.2/30" > /etc/net/ifaces/ens18/ipv4address
